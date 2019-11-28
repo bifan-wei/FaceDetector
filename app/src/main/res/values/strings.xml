@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FaceDetector</string>
+    <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
+    <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
+</resources>
