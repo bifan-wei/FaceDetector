@@ -32,7 +32,7 @@ allprojects {
         android:layout_height="800px"
         android:layout_centerInParent="true"
         android:background="#000000" />
-```
+ ```
 - 添加画面监听，用于项目中的业务处理
 ```java
  faceDetectView = findViewById(R.id.faceDetectView);
@@ -59,7 +59,7 @@ allprojects {
                 return true;
             }
         });
-   ```
+```
 - 启动检测，开始前进行初始化参数
 ```java
 public void startDetect(View view) {
@@ -86,8 +86,7 @@ public void startDetect(View view) {
     }
 ```
 - 注意的问题
-1.必须有摄像头权限：
-</br>
  ```xml
- <uses-permission android:name="android.permission.CAMERA"/>
+ 必须有摄像头权限：
+<uses-permission android:name="android.permission.CAMERA"/>
  ```
