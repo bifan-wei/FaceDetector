@@ -86,6 +86,7 @@ public void startDetect(View view) {
     }
 ```
 - 注意的问题
+<br>
 1.必须有摄像头权限：
 ```xml
  <uses-permission android:name="android.permission.CAMERA" />
